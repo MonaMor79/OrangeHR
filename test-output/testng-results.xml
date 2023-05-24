@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-24T23:43:16 EET" name="OrangeHR" finished-at="2023-05-24T23:43:56 EET" duration-ms="40415">
+    <groups>
+    </groups>
+    <test started-at="2023-05-24T23:43:16 EET" name="Check Login" finished-at="2023-05-24T23:43:56 EET" duration-ms="40415">
+      <class name="testcases.TC01_CheckLogin">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:testcases.TC01_CheckLogin@50a7bc6e]" started-at="2023-05-24T23:43:16 EET" name="setupDriver" finished-at="2023-05-24T23:43:26 EET" duration-ms="10270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="testCase01()[pri:1, instance:testcases.TC01_CheckLogin@50a7bc6e]" started-at="2023-05-24T23:43:26 EET" name="testCase01" description="Check E2E test secnario" finished-at="2023-05-24T23:43:55 EET" duration-ms="29051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC01_CheckLogin@50a7bc6e]" started-at="2023-05-24T23:43:55 EET" name="tearDown" finished-at="2023-05-24T23:43:56 EET" duration-ms="1017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC01_CheckLogin -->
+    </test> <!-- Check Login -->
+  </suite> <!-- OrangeHR -->
+</testng-results>
