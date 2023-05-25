@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-24T23:43:16 EET" name="OrangeHR" finished-at="2023-05-24T23:43:56 EET" duration-ms="40415">
+  <suite started-at="2023-05-25T23:18:43 EET" name="OrangeHR" finished-at="2023-05-25T23:20:17 EET" duration-ms="94303">
     <groups>
     </groups>
-    <test started-at="2023-05-24T23:43:16 EET" name="Check Login" finished-at="2023-05-24T23:43:56 EET" duration-ms="40415">
+    <test started-at="2023-05-25T23:18:43 EET" name="Check Login" finished-at="2023-05-25T23:20:17 EET" duration-ms="94303">
       <class name="testcases.TC01_CheckLogin">
-        <test-method is-config="true" signature="setupDriver()[pri:0, instance:testcases.TC01_CheckLogin@50a7bc6e]" started-at="2023-05-24T23:43:16 EET" name="setupDriver" finished-at="2023-05-24T23:43:26 EET" duration-ms="10270" status="PASS">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:testcases.TC01_CheckLogin@691a7f8f]" started-at="2023-05-25T23:18:43 EET" name="setupDriver" finished-at="2023-05-25T23:19:00 EET" duration-ms="17326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method signature="testCase01()[pri:1, instance:testcases.TC01_CheckLogin@50a7bc6e]" started-at="2023-05-24T23:43:26 EET" name="testCase01" description="Check E2E test secnario" finished-at="2023-05-24T23:43:55 EET" duration-ms="29051" status="PASS">
+        <test-method signature="testCase01()[pri:1, instance:testcases.TC01_CheckLogin@691a7f8f]" started-at="2023-05-25T23:19:00 EET" name="testCase01" description="Check E2E test secnario" finished-at="2023-05-25T23:20:08 EET" duration-ms="67551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase01 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC01_CheckLogin@50a7bc6e]" started-at="2023-05-24T23:43:55 EET" name="tearDown" finished-at="2023-05-24T23:43:56 EET" duration-ms="1017" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC01_CheckLogin@691a7f8f]" started-at="2023-05-25T23:20:08 EET" name="tearDown" finished-at="2023-05-25T23:20:17 EET" duration-ms="9270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

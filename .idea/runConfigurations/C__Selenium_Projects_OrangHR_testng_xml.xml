@@ -1,0 +1,25 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="C:/Selenium Projects/OrangHR/testng.xml" type="TestNG" singleton="false" nameIsGenerated="true">
+    <module name="OrangHR" />
+    <shortenClasspath name="NONE" />
+    <useClassPathOnly />
+    <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+    <option name="PACKAGE_NAME" value="" />
+    <option name="MAIN_CLASS_NAME" value="" />
+    <option name="METHOD_NAME" value="" />
+    <option name="GROUP_NAME" value="" />
+    <option name="TEST_OBJECT" value="SUITE" />
+    <option name="PARAMETERS" value="" />
+    <option name="OUTPUT_DIRECTORY" value="" />
+    <option name="USE_DEFAULT_REPORTERS" value="true" />
+    <option name="PROPERTIES_FILE" value="" />
+    <properties />
+    <listeners>
+      <listener class="org.testng.TestListenerAdapter" />
+    </listeners>
+    <method v="2">
+      <option name="Make" enabled="true" />
+      <option name="MakeProject" enabled="true" />
+    </method>
+  </configuration>
+</component>
