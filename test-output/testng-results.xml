@@ -2,20 +2,39 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-25T23:18:43 EET" name="OrangeHR" finished-at="2023-05-25T23:20:17 EET" duration-ms="94303">
+  <suite started-at="2023-05-26T16:53:49 EET" name="OrangeHR" finished-at="2023-05-26T16:54:37 EET" duration-ms="48360">
     <groups>
     </groups>
-    <test started-at="2023-05-25T23:18:43 EET" name="Check Login" finished-at="2023-05-25T23:20:17 EET" duration-ms="94303">
+    <test started-at="2023-05-26T16:53:49 EET" name="Check Login" finished-at="2023-05-26T16:54:37 EET" duration-ms="48360">
       <class name="testcases.TC01_CheckLogin">
-        <test-method is-config="true" signature="setupDriver()[pri:0, instance:testcases.TC01_CheckLogin@691a7f8f]" started-at="2023-05-25T23:18:43 EET" name="setupDriver" finished-at="2023-05-25T23:19:00 EET" duration-ms="17326" status="PASS">
+        <test-method is-config="true" signature="defineSuiteElements()[pri:0, instance:testcases.TC01_CheckLogin@3b938003]" started-at="2023-05-26T16:53:48 EET" name="defineSuiteElements" finished-at="2023-05-26T16:53:49 EET" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSuiteElements -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:testcases.TC01_CheckLogin@3b938003]" started-at="2023-05-26T16:53:49 EET" name="setupDriver" finished-at="2023-05-26T16:54:00 EET" duration-ms="10807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method signature="testCase01()[pri:1, instance:testcases.TC01_CheckLogin@691a7f8f]" started-at="2023-05-25T23:19:00 EET" name="testCase01" description="Check E2E test secnario" finished-at="2023-05-25T23:20:08 EET" duration-ms="67551" status="PASS">
+        <test-method signature="testCase01()[pri:1, instance:testcases.TC01_CheckLogin@3b938003]" started-at="2023-05-26T16:54:00 EET" name="testCase01" description="Check E2E test secnario" finished-at="2023-05-26T16:54:34 EET" duration-ms="34185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase01 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC01_CheckLogin@691a7f8f]" started-at="2023-05-25T23:20:08 EET" name="tearDown" finished-at="2023-05-25T23:20:17 EET" duration-ms="9270" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.TC01_CheckLogin@3b938003]" started-at="2023-05-26T16:54:34 EET" name="getResult" finished-at="2023-05-26T16:54:34 EET" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase01 status=SUCCESS method=TC01_CheckLogin.testCase01()[pri:1, instance:testcases.TC01_CheckLogin@3b938003] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcases.TC01_CheckLogin@3b938003]" started-at="2023-05-26T16:54:34 EET" name="quit" finished-at="2023-05-26T16:54:37 EET" duration-ms="3312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC01_CheckLogin@3b938003]" started-at="2023-05-26T16:54:37 EET" name="tearDown" finished-at="2023-05-26T16:54:39 EET" duration-ms="1198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

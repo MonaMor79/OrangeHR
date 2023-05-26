@@ -5,9 +5,12 @@
     <classes>
       <class name="testcases.TC01_CheckLogin">
         <methods>
-          <include name="checkValidLogin_P"/>
+          <include name="getResult"/>
+          <include name="defineSuiteElements"/>
           <include name="tearDown"/>
           <include name="setupDriver"/>
+          <include name="testCase01"/>
+          <include name="quit"/>
         </methods>
       </class> <!-- testcases.TC01_CheckLogin -->
     </classes>

@@ -3,6 +3,7 @@ package testcases;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 import pages.P01_LoginPage;
 import pages.P02_AdminPage;
 import pages.P03_DeletePage;
@@ -37,13 +38,13 @@ public class TC01_CheckLogin extends TestBase{
         adminPage.selectEmployeeName();
         Thread.sleep(3000);
 
-        adminPage.insertUserName("MonaKa");
+        adminPage.insertUserName("MonaK");
         adminPage.insertPassword();
         adminPage.confirmPassword();
         adminPage.clickSave();
         Thread.sleep(5000);
 
-        deletePage.fillUserName("MonaKa");
+        deletePage.fillUserName("MonaK");
         deletePage.clickSearchButton();
         deletePage.clickDeleteButton();
         deletePage.confirmDelete();

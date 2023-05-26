@@ -192,12 +192,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testCase01')
 data.setCell(0, 2, 'testcases.TC01_CheckLogin')
-data.setCell(0, 3, 67551);
+data.setCell(0, 3, 34185);
 window.suiteTableData['OrangeHR']= { tableData: data, tableDiv: 'times-div-OrangeHR'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
               <div id="times-div-OrangeHR">
               </div> <!-- times-div-OrangeHR -->
             </div> <!-- times-div -->
@@ -224,18 +224,30 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC01_CheckLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">defineSuiteElements</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">setupDriver</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">1024 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">testCase01</span>
-                <span class="method-start">17438 ms</span>
+                <span class="method-start">11869 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=testCase01 status=SUCCESS method=TC01_CheckLogin.testCase01()[pri:1, instance:testc...)</span>
+                <span class="method-start">46057 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">85000 ms</span>
+                <span class="method-name">quit</span>
+                <span class="method-start">46072 ms</span>
               </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49423 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
